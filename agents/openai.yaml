@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publishable Research Orchestrator"
+  short_description: "Multi-agent research, topic scoring, and execution planning"
+  default_prompt: "Use $publishable-research-orchestrator to identify a publication-grade research direction, score candidates, and produce a step-by-step execution plan."
