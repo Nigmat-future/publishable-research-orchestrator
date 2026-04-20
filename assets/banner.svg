@@ -1,0 +1,107 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1510" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081420"/>
+      <stop offset="0.48" stop-color="#10283D"/>
+      <stop offset="1" stop-color="#143A35"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(304 88) rotate(33.41) scale(505.407 192.849)">
+      <stop stop-color="#6EE7FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#6EE7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1290 394) rotate(180) scale(510 210)">
+      <stop stop-color="#70F0B7" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#70F0B7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="1140" y1="92" x2="1320" y2="326" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#90F7FF"/>
+      <stop offset="1" stop-color="#75F0B9"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="210" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163348"/>
+      <stop offset="1" stop-color="#153A33"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40" y="-40" width="1680" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.00392157 0 0 0 0 0.0627451 0 0 0 0 0.12549 0 0 0 0.34 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="28" y="28" width="1544" height="464" rx="32" fill="url(#bg)"/>
+    <rect x="28.75" y="28.75" width="1542.5" height="462.5" rx="31.25" stroke="rgba(255,255,255,0.08)"/>
+  </g>
+
+  <ellipse cx="304" cy="88" rx="408" ry="152" fill="url(#glowA)"/>
+  <ellipse cx="1290" cy="394" rx="408" ry="152" fill="url(#glowB)"/>
+
+  <g opacity="0.16">
+    <path d="M68 156H1532" stroke="white" stroke-width="1"/>
+    <path d="M68 244H1532" stroke="white" stroke-width="1"/>
+    <path d="M68 332H1532" stroke="white" stroke-width="1"/>
+    <path d="M68 420H1532" stroke="white" stroke-width="1"/>
+    <path d="M236 52V468" stroke="white" stroke-width="1"/>
+    <path d="M488 52V468" stroke="white" stroke-width="1"/>
+    <path d="M740 52V468" stroke="white" stroke-width="1"/>
+    <path d="M992 52V468" stroke="white" stroke-width="1"/>
+    <path d="M1244 52V468" stroke="white" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1124" cy="134" r="11" fill="#90F7FF"/>
+    <circle cx="1248" cy="208" r="11" fill="#A6FFD7"/>
+    <circle cx="1170" cy="288" r="11" fill="#90F7FF"/>
+    <circle cx="1326" cy="322" r="11" fill="#A6FFD7"/>
+    <circle cx="1410" cy="194" r="11" fill="#90F7FF"/>
+    <path d="M1124 134L1248 208L1170 288L1326 322L1410 194" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1248 208L1410 194" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="1088" y="88" width="278" height="286" rx="22" fill="rgba(11,23,34,0.52)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="1114" y="116" width="130" height="28" rx="14" fill="rgba(144,247,255,0.14)"/>
+    <text x="1132" y="135" fill="#D9FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.3">RESEARCH MAP</text>
+    <rect x="1114" y="168" width="226" height="12" rx="6" fill="rgba(255,255,255,0.12)"/>
+    <rect x="1114" y="190" width="190" height="12" rx="6" fill="rgba(255,255,255,0.1)"/>
+    <rect x="1114" y="228" width="98" height="74" rx="16" fill="rgba(144,247,255,0.12)" stroke="rgba(144,247,255,0.24)"/>
+    <rect x="1228" y="228" width="112" height="74" rx="16" fill="rgba(117,240,185,0.12)" stroke="rgba(117,240,185,0.24)"/>
+    <rect x="1114" y="318" width="226" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  </g>
+
+  <text x="98" y="170" fill="#ECFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-1.2">
+    Publishable Research Orchestrator
+  </text>
+  <text x="100" y="224" fill="#BDE9EF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+    Multi-agent discovery, topic scoring, selection logic, and execution plans for publication-grade research.
+  </text>
+
+  <g transform="translate(98 290)">
+    <rect width="194" height="56" rx="18" fill="url(#pill)" stroke="rgba(255,255,255,0.12)"/>
+    <circle cx="34" cy="28" r="7" fill="#90F7FF"/>
+    <text x="54" y="34" fill="#E9FDFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Discover</text>
+  </g>
+  <g transform="translate(314 290)">
+    <rect width="176" height="56" rx="18" fill="url(#pill)" stroke="rgba(255,255,255,0.12)"/>
+    <circle cx="34" cy="28" r="7" fill="#A6FFD7"/>
+    <text x="54" y="34" fill="#E9FDFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Score</text>
+  </g>
+  <g transform="translate(510 290)">
+    <rect width="178" height="56" rx="18" fill="url(#pill)" stroke="rgba(255,255,255,0.12)"/>
+    <circle cx="34" cy="28" r="7" fill="#90F7FF"/>
+    <text x="54" y="34" fill="#E9FDFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Select</text>
+  </g>
+  <g transform="translate(708 290)">
+    <rect width="192" height="56" rx="18" fill="url(#pill)" stroke="rgba(255,255,255,0.12)"/>
+    <circle cx="34" cy="28" r="7" fill="#A6FFD7"/>
+    <text x="54" y="34" fill="#E9FDFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Execute</text>
+  </g>
+
+  <text x="102" y="390" fill="#88AFC0" font-family="Consolas, Menlo, monospace" font-size="18">
+    candidate landscape  |  publishability rubric  |  milestone design  |  research pack scaffolding
+  </text>
+</svg>

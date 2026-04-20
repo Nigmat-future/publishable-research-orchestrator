@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="Publishable Research Orchestrator banner" width="100%" />
+</p>
+
 # Publishable Research Orchestrator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
@@ -122,6 +126,8 @@ publishable-research-orchestrator/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
+├── assets/
+│   └── banner.svg
 ├── agents/
 │   └── openai.yaml
 ├── references/
